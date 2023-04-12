@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('../fonts/EuclidFlexLight.ttf');
 *{
     margin: 0px;
     padding: 0px;
@@ -18,3 +15,105 @@ a{
 }
 
 /* TopBar styleing now */
+
+.bg{
+    background-color: #fffffffd;
+}
+.navbar-nav li{
+    margin: 0 7px;
+}
+.nav-link{
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 44px;
+    color: #434343;
+}
+.nav-link:hover{
+    color: #434343; 
+}
+
+.nav-link i{
+    color: #434343; 
+    margin-right: 3px;
+}
+
+
+/* melli banner section start now */
+.banner{
+    width: 100%;
+    background-image:url('../images/logo/banner.png');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(-75px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.banner_info h2{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #434343;
+    margin-top: 10px;
+}
+
+.banner_info p{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #434343;
+    margin-top: 10px;
+}
+
+.banner_btn{
+    display: flex;
+    flex-direction: column;
+
+}
+.banner_btn a{
+    background: linear-gradient(180deg, #FF808A 0%, #FE324F 100%);
+    box-shadow: 0px 10px 30px rgba(228, 1, 61, 0.5);
+    border-radius: 5px;
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 3px 30px;
+    margin: 10px 0 ; 
+    height: 43.53px;
+}
+
+.banner_btn a:nth-child(1){
+    width: 200px;
+}
+.banner_btn a:nth-child(2){
+    width: 250px;
+}
+.banner_btn a:nth-child(3){
+    width: 213.93px
+}
+
+.banner_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_img img{
+    max-width: 450px;
+    width: 100%;
+    margin-top: 20px;
+}
+

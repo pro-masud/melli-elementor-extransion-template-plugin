@@ -1,0 +1,19 @@
+@media screen and (max-width:1200px) {
+    .navbar-nav li a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .navbar-nav li a{
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    .banner{
+        transform: translateY(0px);
+    }
+    .banner_img{
+        margin-top: 30px;
+    }
+}
