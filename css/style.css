@@ -117,3 +117,44 @@ a{
     margin-top: 20px;
 }
 
+/* tikfly section start now */
+.tikfly{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0;
+}
+
+.tikfly_info h2{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    color: #434343;
+}
+
+.tikfly_info h2 span{
+    font-weight: 400;
+}
+
+
+.single_img{
+    background-image: url('../images/scral.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+.single_img img{
+    max-width: 450px;
+    width: 100%;
+    
+}
+
+/* tikfly section End */
+
