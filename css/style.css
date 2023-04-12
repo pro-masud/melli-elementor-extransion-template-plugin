@@ -153,8 +153,109 @@ a{
 .single_img img{
     max-width: 450px;
     width: 100%;
-    
+
 }
 
 /* tikfly section End */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section start now */
+
+footer{
+    background: rgba(255, 176, 181, 0.25);
+    padding: 50px 0;
+}
+
+footer hr{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.widget_left img {
+    padding: 10px 0;
+}
+
+.widget_left p{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #434343;
+    width: 55%;
+    
+}
+.widget_right h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.footer_menu{
+    margin: 0px;
+    padding: 0px;
+}
+.footer_menu li{
+    width: 47%;
+    display: inline-block;
+}
+
+.footer_menu li a{
+    color: #000000;
+}
+
+/* main footer section start now */
+.main_footer{
+    padding: 20px 0px;
+}
+
+.footer_m_btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy_right p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.footer_m_btn a{
+    margin: 0 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+
+
+}

@@ -21,6 +21,16 @@
         font-size: 38px;
         line-height: 40px;       
     }
+    .footer_menu li{
+        width: 100%;
+       
+    }
+
+    .footer_m_btn{
+        justify-content: start;
+    }
+    .footer_m_btn a{
+        margin: 0 0px 20px 0;
 }
 
 @media screen and (max-width:768px){
