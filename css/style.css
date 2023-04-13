@@ -256,6 +256,106 @@ footer hr{
     line-height: 24px;
     letter-spacing: -0.015em;
     color: rgba(0, 0, 0, 0.8);
-
-
 }
+
+/* malli section start now */
+.tikfly .card{
+    border: none !important;
+}
+.melli_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.melli_card img{
+    width: 118px;
+    height: 103px;
+}
+
+.melli_card h5{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;   
+    color: #434343;
+    margin-top: 10px;
+}
+
+.melli_card p{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #434343;
+    margin-top: 10px;
+}
+/* Grow Section styleing Start Now */
+.grow{
+    background: rgba(255, 176, 181, 0.32);
+    padding: 80px 0;
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px 5px rgba(255, 176, 181, 0.32);
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.grow_head h2{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    color: #434343;
+}
+.grow_head p{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    color: #434343;
+    text-align: left;
+}
+
+.grow_info{
+    margin: 50px 0px;
+}
+
+.grow_info i{
+    font-size: 30px;
+    color:#434343;
+    text-align: center;
+}
+
+.grow_info h5{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #434343;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.grow_info p{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 20px;
+    line-height: 35px;
+    color: #434343;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+
