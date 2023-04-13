@@ -357,5 +357,160 @@ footer hr{
     margin-top: 10px;
 }
 
+.grow_info a{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    color: #FFFFFF;
+    background: linear-gradient(0deg, #FB2F4D 0%, rgba(242, 42, 69, 0.66) 100%);
+    box-shadow: 0px 0px 10px rgba(242, 42, 69, 0.75);
+    border-radius: 15px;
+    padding: 6px 20px;
+}
+
+
+/* touch sectuion start now */
+.touch{
+    padding: 100px 0;
+}
+.touch_left_img{
+   
+    position: relative;
+}
+
+.touch_left_img > img{
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    transform: translateX(-300px);
+}
+.touch_info{
+    margin-top: 100px;
+}
+
+.touch_info h2{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #434343; 
+}
+
+.touch_info p{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    color: #434343;
+}
+.touch_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.touch_menu li{
+    margin: 0 10px;
+}
+
+.touch_menu li a i{
+    margin-top: 10px;
+    padding: 12px;
+    border: 1px solid #434343;
+    border-radius: 50px;
+    color:#434343;
+}
+.touch_info_right h4{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #434343;
+}
+
+.touch_info_right p{
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    color: #434343;
+}
+
+.user_form{
+    margin-top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px 5px rgba(255, 176, 181, 0.32);
+    border-radius: 10px;
+    padding: 10px 20px 40px;
+}
+.user_form a{
+    display: block;
+    width: 100%;
+    background: linear-gradient(180deg, #FF808A 0%, #FE324F 100%);
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px 0;
+    border:none;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.user_form input{
+    display: block;
+    width: 100%;
+    background: rgba(255, 176, 181, 0.25);
+    border-radius: 10px;
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #434343;
+    margin: 10px 0;
+    border:none;
+    padding: 10px;
+}
+
+.user_form input:last-child{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #FF808A 0%, #FE324F 100%);
+    box-shadow: 0px 10px 30px rgba(228, 1, 61, 0.5);
+    border-radius: 5px;
+
+}
+
+.user_form textarea{
+    display: block;
+    width: 100%;
+    background: rgba(255, 176, 181, 0.25);
+    border-radius: 10px;
+    font-family: 'Euclid Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #434343;
+    margin: 10px 0;
+    border:none;
+    padding: 10px;
+}
 
 
